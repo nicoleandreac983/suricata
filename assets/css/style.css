@@ -1,0 +1,47 @@
+body{
+    margin: 0px;
+    padding: 0px;
+    font-family: "Open sans", sans-serif;
+}
+/* agregar color a boostrap */
+:root{
+    --main-bg-color: #e83e8c;
+}
+
+.navbar{
+    background: var(--main-bg-color);
+}
+
+.navbar-brand img{
+    height: 2.5rem;
+}
+
+h1{
+    color: #707070;
+    font-weight: 700;
+}
+
+#Ahora-aceptamos{
+    background: #17A2B8;
+}
+
+footer{
+    background: var(--main-bg-color);
+}
+
+footer img{
+    height: 6.5rem;
+}
+
+/* sacarle la linea de abajo subrayado a los link */
+a{
+    text-decoration: none;
+}
+
+/* para que se pegen a la izquierda cartas en dispositivos moviles */
+@media (max-width:768px){
+    #productos .card{
+        margin-left: 35px;
+    }
+
+}
